@@ -1,0 +1,31 @@
+.todo_box{
+    width: 750px;
+    margin: 2rem auto 0;
+    // background-color: antiquewhite;
+    // padding: 2rem;
+
+    h1{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .input{
+        display: flex;
+    }
+    .items{
+        margin-top: 2rem;
+        list-style: none;
+        transform: translateX(-2rem);
+        li{
+            border-bottom: 1px solid #8bc34a;
+            padding: .5rem 0;
+
+            .operate{
+                float: right;
+
+                i{
+                    margin-left: .5rem;
+                }
+            }
+        }
+    }
+}

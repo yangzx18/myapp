@@ -1,0 +1,80 @@
+.links{
+    // margin-top: 4rem;
+    padding: 1rem;
+
+    .link-manage-box{
+        padding: 1rem 0.8rem;
+        margin-bottom: -1rem;
+    }
+    span.linkshow,span.linkmanage{
+            padding: 1rem 0.8rem;
+            background-color: rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+            border-radius: 0.2rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            &:hover{
+                @extend %shoadow;
+            }
+            
+        }
+    span.visisted{
+            background-color: rgba(128, 96, 96, 0.65);
+            color: #fff;
+    }
+
+    span.linkmanage{
+        margin-right: 0rem;
+    }
+}
+%shoadow{
+    box-shadow:
+    0 0.1px 0.7px rgba(102, 52, 69, 0.141),
+    0 0.1px 1.7px rgba(73, 44, 53, 0.202),
+    0 0.3px 3.1px rgba(58, 31, 40, 0.25),
+    0 0.4px 5.6px rgba(143, 112, 123, 0.298),
+    0 0.8px 10.4px rgba(77, 115, 219, 0.359),
+    0 2px 25px rgba(15, 10, 2, 0.5);
+}
+
+.down2{
+    margin-bottom: 2rem;
+}
+
+.pointed{
+    cursor: pointer;
+}
+.left25{
+    margin-left: 0.25rem;
+}
+.right25{
+    margin-right: 0.25rem;
+}
+.left5{
+    margin-left: 0.5rem;
+}
+.kinds{
+    background-color: cadetblue;
+    padding: 1rem;
+    color: white;
+    margin-top: 2rem;
+
+    .kind-manage-box{
+        padding: 1rem 0.8rem;
+        position:relative;
+        margin-right: 1rem;
+        display: inline;
+    }
+    .kindshow{
+        margin-right: 1rem;
+        cursor: pointer;
+        
+    }
+    .curKind{
+        color: rgba(0, 0, 0, 0.85);
+    }
+}
+
+.search{
+    margin: 2rem 0 1rem 0;
+}

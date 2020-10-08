@@ -1,0 +1,7 @@
+.hori_list{
+    margin: 0;
+    padding: 0;
+    & > span{
+        margin-right: 2rem;
+    }
+}
